@@ -12,7 +12,7 @@ go:
   - 1.x
 
 before_install:
-  - go get -v github.com/golang/lint/golint
+  - go get -v golang.org/x/lint/golint
 
 before_script:
   - export DISPLAY=:99.0
